@@ -6,7 +6,7 @@
 \usepackage{fancyhdr}
 \usepackage{geometry}
 \usepackage{fix-cm}
-\usepackage[hidelinks]{hyperref}
+\usepackage[colorlinks=true, linkcolor=blue, urlcolor=cyan]{hyperref}
 \usepackage{graphicx}
 \usepackage{multirow}
 \usepackage[english]{babel}
@@ -72,8 +72,9 @@
 \textbf{\huge 2025 Semester 1}\\[2cm]
 \textbf{\huge Skills: Team Project Report}\\[2cm]
 
-\textbf{\large Submission number: ?? Add your details}\\[0.5cm]
-\textbf{\large Github link: ?? Add your details}\\[0.75cm]
+\textbf{\large Submission number: 1}\\[0.5cm]
+\textbf{\large GitHub: \href{https://github.com/absrads/Computing-Professionalism-Assignment-1}{Click here}}\\[0.5cm]
+
 \textbf{\huge Team Members:}\\[0.75cm]
 
 \begin{tabular}{|p{0.25\textwidth}|p{0.13\textwidth}|p{0.12\textwidth}|p{0.12\textwidth}|p{0.22\textwidth}|}
@@ -245,7 +246,20 @@ Demonstrate the following to your tutor during the tutorial:
 % =======================================================
 \subsection{Group response}
 
-Your text goes here
+We began by identifying common issues with communication during disasters such as access to network connection, delays in communication, misinformation and automation. We then brainstormed ideas for our own roles, then taking input from other team members on how it can be feasibly incorporated. We also made regular check ins during tutorials and opened issues on GitHub to complete tasks and closed them when they were complete.\newline
+
+After the brainstorming phase, everyone wrote down their own implementation according to their role and then we discussed as a group how to polish each part of the larger solution to work smoothly. The main challenge encountered in development of our plan was when there were two conflicting ideas about how we should implement a part of the system. We allowed each group member to express their thoughts and then decided which way we wanted to proceed.\newline
+
+In order to make a cohesive software that was able to solve several 
+issues across multiple disciplines, we had to compromise and make decisions based on priorities. A key turning point was when we realised the communication needed to work offline. The software engineering team proposed local caching and delayed synchronisation . this ensured users could still receive and input data without internet access.Another decision we had to make was about usage for different user levels. As This software would be used by volunteers, civilians and emergency responders.\newline
+
+The cybersecurity team proposed role based access, with user IDs to support this. The data science team identified that responders needed real-time data to locate priority areas, however with unstable connection this was going to be difficult. A turning point came when they suggested analysing and using historical emergency data to forecast areas likely to be affected next. We combined this satellite image data processed through AI models to detect patterns. Using historical data enabled the team to provide offline available maps with high-risk zones highlighted.\newline
+
+Computer science team worked to ensure data could be visualised on dashboard
+That were easy and intuitive to understand and interpret. Computer science team also created a database to store data and users. They worked with Software engineering team to ensure this was scalable and the cybersecurity team to ensure the data stored was encrypted. For secure communication, the cybersecurity team also ensured end-to-end encryption in messages. To prevent misinformation they worked with all teams to implement a system to monitor logs. This detected abnormal behaviour, possible hacks, and with AI, could detect misinformation. 
+
+
+
 
 
 \subsection{Skills for \majA: \studA}
@@ -310,6 +324,16 @@ Collaborating with teammates across different disciplines required me to clearly
 \paragraph{}
 Professionally, I want to improve my ability to communicate technical ideas clearly and collaborate more effectively under pressure. Technically, I’d like to build my confidence in areas like threat detection and securely configuring systems. Particularly, understanding how to configure secure systems from the ground up is something I’m keen to get better at. This project helped me identify those gaps and gave me a clearer idea of what skills to focus on moving forward.
 
+
+\newpage
+
+\subsection{Sceenshot for GitHub}
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.8\textwidth]{githubpush.png}
+    \caption{Committing changes to GitHub from the command line.}
+    \label{fig:my_label}
+\end{figure}
 
 %add a fifth subsection if there is a fifth member
 

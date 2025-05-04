@@ -9,21 +9,24 @@
 \contentsline {paragraph}{}{11}{paragraph*.2}%
 \contentsline {paragraph}{}{11}{paragraph*.3}%
 \contentsline {paragraph}{}{11}{paragraph*.4}%
-\contentsline {subsection}{\numberline {1.6.}Sceenshot for GitHub}{12}{subsection.0.1.6}%
-\contentsline {section}{\numberline {2.}Task 2 (Advanced): Advanced Skills}{13}{section.0.2}%
-\contentsline {subsection}{\numberline {2.1.}Tools and Skills for {Computer Science}: {HAZAN, Leo}}{15}{subsection.0.2.1}%
-\contentsline {subsubsection}{Part A: Exploration of tech tools}{15}{subsubsection*.5}%
-\contentsline {subsubsection}{Part B: Technical Skills and Analysis}{15}{subsubsection*.6}%
-\contentsline {subsection}{\numberline {2.2.}Tools and Skills for {Data Science}: {BUCKLE, William}}{15}{subsection.0.2.2}%
-\contentsline {subsubsection}{Part A: Exploration of tech tools}{15}{subsubsection*.7}%
-\contentsline {subsubsection}{Part B: Technical Skills and Analysis}{15}{subsubsection*.8}%
-\contentsline {subsection}{\numberline {2.3.}Tools and Skills for {SW Development}: {ANSTED, Emerson}}{15}{subsection.0.2.3}%
-\contentsline {subsubsection}{Part A: Exploration of tech tools}{15}{subsubsection*.9}%
-\contentsline {subsubsection}{Part B: Technical Skills and Analysis}{15}{subsubsection*.10}%
-\contentsline {subsection}{\numberline {2.4.}Tools and Skills for {Cyber Security}: {CRONIN, Lauren-Grace}}{15}{subsection.0.2.4}%
-\contentsline {subsubsection}{Part A: Exploration of tech tools}{15}{subsubsection*.11}%
-\contentsline {subsubsection}{Part B: Technical Skills and Analysis}{15}{subsubsection*.12}%
-\contentsline {section}{\numberline {3.}Submission contribution overview}{16}{section.0.3}%
-\contentsline {subsection}{\numberline {3.1.}Submission 1 contribution overview}{16}{subsection.0.3.1}%
-\contentsline {subsection}{\numberline {3.2.}Submission 2 contribution overview}{16}{subsection.0.3.2}%
-\contentsline {subsection}{\numberline {3.3.}Submission 3 contribution overview}{16}{subsection.0.3.3}%
+\contentsline {subsection}{\numberline {1.6.}Screenshot for Git Push}{12}{subsection.0.1.6}%
+\contentsline {subsection}{\numberline {1.7.}Screenshot for Pdflatex}{12}{subsection.0.1.7}%
+\contentsline {subsection}{\numberline {1.8.}Screenshot for Bibtex}{12}{subsection.0.1.8}%
+\contentsline {subsection}{\numberline {1.9.}Sceenshot for GitHub}{13}{subsection.0.1.9}%
+\contentsline {section}{\numberline {2.}Task 2 (Advanced): Advanced Skills}{14}{section.0.2}%
+\contentsline {subsection}{\numberline {2.1.}Tools and Skills for {Computer Science}: {HAZAN, Leo}}{16}{subsection.0.2.1}%
+\contentsline {subsubsection}{Part A: Exploration of tech tools}{16}{subsubsection*.5}%
+\contentsline {subsubsection}{Part B: Technical Skills and Analysis}{16}{subsubsection*.6}%
+\contentsline {subsection}{\numberline {2.2.}Tools and Skills for {Data Science}: {BUCKLE, William}}{16}{subsection.0.2.2}%
+\contentsline {subsubsection}{Part A: Exploration of tech tools}{16}{subsubsection*.7}%
+\contentsline {subsubsection}{Part B: Technical Skills and Analysis}{16}{subsubsection*.8}%
+\contentsline {subsection}{\numberline {2.3.}Tools and Skills for {SW Development}: {ANSTED, Emerson}}{16}{subsection.0.2.3}%
+\contentsline {subsubsection}{Part A: Exploration of tech tools}{16}{subsubsection*.9}%
+\contentsline {subsubsection}{Part B: Technical Skills and Analysis}{16}{subsubsection*.10}%
+\contentsline {subsection}{\numberline {2.4.}Tools and Skills for {Cyber Security}: {CRONIN, Lauren-Grace}}{16}{subsection.0.2.4}%
+\contentsline {subsubsection}{Part A: Exploration of tech tools}{16}{subsubsection*.11}%
+\contentsline {subsubsection}{Part B: Technical Skills and Analysis}{16}{subsubsection*.12}%
+\contentsline {section}{\numberline {3.}Submission contribution overview}{17}{section.0.3}%
+\contentsline {subsection}{\numberline {3.1.}Submission 1 contribution overview}{17}{subsection.0.3.1}%
+\contentsline {subsection}{\numberline {3.2.}Submission 2 contribution overview}{17}{subsection.0.3.2}%
+\contentsline {subsection}{\numberline {3.3.}Submission 3 contribution overview}{17}{subsection.0.3.3}%

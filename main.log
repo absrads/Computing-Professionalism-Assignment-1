@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2025.4.11)  11 APR 2025 09:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2025.4.11)  4 MAY 2025 20:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -414,7 +414,17 @@ x/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count309
 \l__pdf_internal_box=\box53
-) (main.aux)
+) (main.aux
+
+LaTeX Warning: Label `fig:my_label' multiply defined.
+
+
+LaTeX Warning: Label `fig:my_label' multiply defined.
+
+
+LaTeX Warning: Label `fig:my_label' multiply defined.
+
+)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
@@ -501,7 +511,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 x/00miktex/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-<USyd.jpg, id=63, 257.46187pt x 89.58469pt>
+<USyd.jpg, id=79, 257.46187pt x 89.58469pt>
 File: USyd.jpg Graphic file (type jpg)
 <use USyd.jpg>
 Package pdftex.def Info: USyd.jpg  used on input line 67.
@@ -543,10 +553,6 @@ undation task (successful
 
 
 [2]
-
-LaTeX Warning: Citation `usyd2' on page 3 undefined on input line 134.
-
-
 
 [3]
 Underfull \hbox (badness 10000) in paragraph at lines 149--150
@@ -593,9 +599,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 180--181
 Underfull \hbox (badness 10000) in paragraph at lines 189--190
 
  []
-
-
-LaTeX Warning: Citation `sfia' on page 5 undefined on input line 193.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 198--199
@@ -699,27 +702,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 275--276
 
 
 [8]
-
-LaTeX Warning: Citation `sfia' on page 9 undefined on input line 281.
-
-
-LaTeX Warning: Citation `sfia' on page 9 undefined on input line 281.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 281--282
 
  []
 
 
-LaTeX Warning: Citation `sfia' on page 9 undefined on input line 283.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 283--284
 
  []
-
-
-LaTeX Warning: Citation `sfia' on page 9 undefined on input line 285.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 285--286
@@ -783,20 +773,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 307--308
 
 
 [10]
-
-LaTeX Warning: Citation `sfia' on page 11 undefined on input line 313.
-
-
-Overfull \hbox (2.11334pt too wide) in paragraph at lines 313--314
+Overfull \hbox (1.642pt too wide) in paragraph at lines 313--314
 \T1/cmr/m/n/10.95 In this project, two SFIA skills [[]] that were particularly 
 relevant to my role in cybersecurity
  []
-
-
-LaTeX Warning: Citation `sfiaSCTY' on page 11 undefined on input line 316.
-
-
-LaTeX Warning: Citation `sfiaDATM' on page 11 undefined on input line 319.
 
 
 Overfull \hbox (15.29694pt too wide) in paragraph at lines 322--323
@@ -811,90 +791,109 @@ retical knowledgeparticularly
  []
 
 
+Overfull \hbox (2.25032pt too wide) in paragraph at lines 337--338
+[]\T1/cmr/m/n/10.95 All BibTeX entries are stored in \T1/cmtt/m/n/10.95 main.bi
+b\T1/cmr/m/n/10.95 , and I used the \T1/cmtt/m/n/10.95 IEEEtran \T1/cmr/m/n/10.
+95 style for formatting. 
+ []
+
+<github.png, id=168, 1218.5525pt x 437.635pt>
+File: github.png Graphic file (type png)
+<use github.png>
+Package pdftex.def Info: github.png  used on input line 342.
+(pdftex.def)             Requested size: 341.43437pt x 122.62376pt.
+
 
 [11]
-<githubpush.png, id=145, 1109.64563pt x 565.36218pt>
+<pdflatex.png, id=181, 729.72626pt x 301.125pt>
+File: pdflatex.png Graphic file (type png)
+<use pdflatex.png>
+Package pdftex.def Info: pdflatex.png  used on input line 350.
+(pdftex.def)             Requested size: 341.43437pt x 140.89468pt.
+<bibtex.png, id=182, 655.44875pt x 159.59625pt>
+File: bibtex.png Graphic file (type png)
+<use bibtex.png>
+Package pdftex.def Info: bibtex.png  used on input line 358.
+(pdftex.def)             Requested size: 341.43437pt x 83.13663pt.
+
+
+[12 <./github.png> <./pdflatex.png> <./bibtex.png>]
+<githubpush.png, id=194, 1109.64563pt x 565.36218pt>
 File: githubpush.png Graphic file (type png)
 <use githubpush.png>
-Package pdftex.def Info: githubpush.png  used on input line 333.
+Package pdftex.def Info: githubpush.png  used on input line 368.
 (pdftex.def)             Requested size: 341.43437pt x 173.95782pt.
 
 
-[12 <./githubpush.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 345--346
+[13 <./githubpush.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 380--381
 
  []
 
 
-Overfull \hbox (6.39273pt too wide) in paragraph at lines 373--374
+Overfull \hbox (6.39273pt too wide) in paragraph at lines 408--409
 []\T1/cmr/m/n/10.95 Computer Science: Python Websockets package (API requests a
 nd system integration) 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 395--396
+Underfull \hbox (badness 10000) in paragraph at lines 430--431
 
  []
 
 
-
-[13]
 
 [14]
 
 [15]
 
 [16]
-No file main.bbl.
-(main.aux)
+
+[17] (main.bbl)
+
+[18
+
+] (main.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 
 
-LaTeX Warning: There were undefined references.
+LaTeX Warning: There were multiply-defined labels.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: 17A38CFA2FC7B37969BFAA795DBD1F2E;4039
-(rerunfilecheck)             After:  8020B21885807DDADB4A7960E3622C32;4207.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 96AD8B1BFA222C4032C1C41ADED27182;4749.
  ) 
 Here is how much of TeX's memory you used:
- 11653 strings out of 475466
- 192594 string characters out of 2763826
- 601560 words of memory out of 3000000
- 34448 multiletter control sequences out of 15000+600000
- 570317 words of font info for 57 fonts, out of 8000000 for 9000
+ 11709 strings out of 475466
+ 193525 string characters out of 2763826
+ 601745 words of memory out of 3000000
+ 34487 multiletter control sequences out of 15000+600000
+ 570630 words of font info for 58 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
  75i,9n,79p,1031b,581s stack positions out of 5000i,500n,10000p,200000b,80000s
  </Users/laurencronin/Library/Application Support/MiKTeX/texmfs/data/fonts/pk
-/ljfour/jknappen/ec/dpi650/ecbx1200.pk> </Users/laurencronin/Library/Applicatio
-n Support/MiKTeX/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi657/ecti1000.pk> </
+/ljfour/jknappen/ec/dpi657/ectt1000.pk> </Users/laurencronin/Library/Applicatio
+n Support/MiKTeX/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi650/ecbx1200.pk> </
 Users/laurencronin/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfo
-ur/jknappen/ec/dpi600/ecrm0800.pk> </Users/laurencronin/Library/Application Sup
-port/MiKTeX/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi657/ecbx1000.pk> </Users
+ur/jknappen/ec/dpi657/ecti1000.pk> </Users/laurencronin/Library/Application Sup
+port/MiKTeX/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/ecrm0800.pk> </Users
 /laurencronin/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/jk
-nappen/ec/dpi750/ecbx1200.pk> </Users/laurencronin/Library/Application Support/
-MiKTeX/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi1244/ecbx1200.pk> </Users/lau
-rencronin/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/jknapp
-en/ec/dpi657/tcrm1000.pk> </Users/laurencronin/Library/Application Support/MiKT
-eX/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi657/ecrm1000.pk> </Users/laurencr
+nappen/ec/dpi657/ecbx1000.pk> </Users/laurencronin/Library/Application Support/
+MiKTeX/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi750/ecbx1200.pk> </Users/laur
+encronin/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/jknappe
+n/ec/dpi1244/ecbx1200.pk> </Users/laurencronin/Library/Application Support/MiKT
+eX/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi657/tcrm1000.pk> </Users/laurencr
 onin/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/jknappen/ec
-/dpi600/ecbx1200.pk> </Users/laurencronin/Library/Application Support/MiKTeX/te
-xmfs/data/fonts/pk/ljfour/jknappen/ec/dpi1037/ecbx1200.pk></Users/laurencronin/
-Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/c
-m/cmsy10.pfb>
-Output written on main.pdf (17 pages, 623273 bytes).
+/dpi657/ecrm1000.pk> </Users/laurencronin/Library/Application Support/MiKTeX/te
+xmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1200.pk> </Users/laurencronin/
+Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi1
+037/ecbx1200.pk></Users/laurencronin/Library/Application Support/MiKTeX/texmfs/
+install/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on main.pdf (19 pages, 1048987 bytes).
 PDF statistics:
- 547 PDF objects out of 1000 (max. 8388607)
- 50 named destinations out of 1000 (max. 500000)
- 131 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 650 PDF objects out of 1000 (max. 8388607)
+ 63 named destinations out of 1000 (max. 500000)
+ 178 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -47,7 +47,7 @@
 \newcommand{\sidA}{{550480855}}
 \newcommand{\sidB}{{530658678}}
 \newcommand{\sidC}{{520442911}}
-\newcommand{\sidD}{{5	5}}
+\newcommand{\sidD}{{530619945}}
 % ADD ANOTHER LINE FOR A FIFTH MEMBER
 
 %
@@ -324,6 +324,41 @@ Collaborating with teammates across different disciplines required me to clearly
 \paragraph{}
 Professionally, I want to improve my ability to communicate technical ideas clearly and collaborate more effectively under pressure. Technically, I’d like to build my confidence in areas like threat detection and securely configuring systems. Particularly, understanding how to configure secure systems from the ground up is something I’m keen to get better at. This project helped me identify those gaps and gave me a clearer idea of what skills to focus on moving forward.
 
+\section*{LaTeX Compilation and BibTeX Evidence}
+
+I compiled the LaTeX report using the command line via \texttt{pdflatex} and \texttt{bibtex} on my local machine. The process involved multiple compilation steps to ensure that citations and references were correctly processed:
+
+\begin{itemize}
+  \item \texttt{pdflatex main.tex} --- compiled the document and generated \texttt{.aux}
+  \item \texttt{bibtex main} --- generated the \texttt{.bbl} file using my \texttt{main.bib} database
+  \item Re-ran \texttt{pdflatex main.tex} twice to resolve cross-references and citation rendering
+\end{itemize}
+
+All BibTeX entries are stored in \texttt{main.bib}, and I used the \texttt{IEEEtran} style for formatting. 
+
+\subsection{Screenshot for Git Push}
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.8\textwidth]{github.png}
+    \caption{Committing changes to GitHub from the command line.}
+    \label{fig:my_label}
+\end{figure}
+
+\subsection{Screenshot for Pdflatex}
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.8\textwidth]{pdflatex.png}
+    \caption{Compiling latex file from the command line.}
+    \label{fig:my_label}
+\end{figure}
+
+\subsection{Screenshot for Bibtex}
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.8\textwidth]{bibtex.png}
+    \caption{Compiling bib file from the command line.}
+    \label{fig:my_label}
+\end{figure}
 
 \newpage
 

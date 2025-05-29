@@ -26,8 +26,16 @@
   see \url{https://libguides.library.usyd.edu.au/c.php?g=508212}.
 
 \bibitem{sfia}
-{SFIA}, ``The global skills and competency framework for the digital world,''
+SFIA, ``The global skills and competency framework for the digital world,''
   2022, see \url{https://sfia-online.org/en/sfia-8/all-skills-a-z}.
+
+\bibitem{sfiaARCH}
+------, ``Solution architecture - sfia 9,'' 2024, see
+  \url{https://sfia-online.org/en/sfia-8/skills/solution-architecture}.
+
+\bibitem{sfiaRFEN}
+------, ``Radio frequency engineering - sfia 9,'' 2024, see
+  \url{https://sfia-online.org/en/sfia-8/skills/radio-frequency-engineering}.
 
 \bibitem{sfiaSCTY}
 ------, ``Information security - sfia 9,'' 2024, see

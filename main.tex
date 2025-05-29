@@ -47,7 +47,7 @@
 \newcommand{\sidA}{{550480855}}
 \newcommand{\sidB}{{530658678}}
 \newcommand{\sidC}{{520442911}}
-\newcommand{\sidD}{{5	5}}
+\newcommand{\sidD}{{530619945}}
 % ADD ANOTHER LINE FOR A FIFTH MEMBER
 
 %
@@ -120,6 +120,8 @@
 \section*{Instructions}
 
 \textbf{Important}: This section should be removed prior to submission.
+
+Edit
 
 You should use this \LaTeX\ template to generate your team project report. Keep in mind the following key points:
 \begin{itemize}
@@ -297,10 +299,10 @@ Looking forward, I would like to improve my skills in data visualisation, as I w
 As the software engineer in the group the two main skills that were relevant to my work on the project were \textbf{Solution Architecture (ARCH)} and \textbf{Radio Frequency Engineering (RFEN)}.\newline
 
 
-\textbf{Solution Architecture (ARCH)} is focused on the development of multi dimensional solution architecture which is able to deliver company or organisational outcomes. This is essential for the disaster response system to ensure smooth interaction between websites, backend processes and other network functionalities to assist in communication between all parties involved or impacted by disasters. This skill also involves evaluating alternative architectures and analysing the trade-offs involved based on operational costs and performance. This was useful to the project as the solution needed to be economically viable as well as impactful and efficient. An example of where this was used was in development of a mobile application which connects to dedicated servers.\newline
+\textbf{Solution Architecture (ARCH)} is focused on the development of multi dimensional solution architecture which is able to deliver company or organisational outcomes \cite{sfiaARCH}. This is essential for the disaster response system to ensure smooth interaction between websites, backend processes and other network functionalities to assist in communication between all parties involved or impacted by disasters. This skill also involves evaluating alternative architectures and analysing the trade-offs involved based on operational costs and performance. This was useful to the project as the solution needed to be economically viable as well as impactful and efficient. An example of where this was used was in development of a mobile application which connects to dedicated servers.\newline
 
 
-\textbf{Radio Frequency Engineering (RFEN)} involves the design, installation and maintenance of radio frequency devices and software. During disaster response there are volunteers and workers out in the field and during dangerous weather events communication is essential, so radio communications need to be utilised for an effective and safe response. An example of where this was used was in the development of a central channel to inform field workers of important events or situations.\newline
+\textbf{Radio Frequency Engineering (RFEN)} involves the design, installation and maintenance of radio frequency devices and software \cite{sfiaRFEN}. During disaster response there are volunteers and workers out in the field and during dangerous weather events communication is essential, so radio communications need to be utilised for an effective and safe response. An example of where this was used was in the development of a central channel to inform field workers of important events or situations.\newline
 
 Working collaboratively helped me to develop these skills, as I knew that the software architecture had to be well developed to be able to incorporate everyone's contributions effectively. This large scale project also helped me to develop radio frequency engineering knowledge as all communications had to run as smoothly as possible.\newline
 
@@ -324,6 +326,41 @@ Collaborating with teammates across different disciplines required me to clearly
 \paragraph{}
 Professionally, I want to improve my ability to communicate technical ideas clearly and collaborate more effectively under pressure. Technically, I’d like to build my confidence in areas like threat detection and securely configuring systems. Particularly, understanding how to configure secure systems from the ground up is something I’m keen to get better at. This project helped me identify those gaps and gave me a clearer idea of what skills to focus on moving forward.
 
+\section*{LaTeX Compilation and BibTeX Evidence}
+
+I compiled the LaTeX report using the command line via \texttt{pdflatex} and \texttt{bibtex} on my local machine. The process involved multiple compilation steps to ensure that citations and references were correctly processed:
+
+\begin{itemize}
+  \item \texttt{pdflatex main.tex} --- compiled the document and generated \texttt{.aux}
+  \item \texttt{bibtex main} --- generated the \texttt{.bbl} file using my \texttt{main.bib} database
+  \item Re-ran \texttt{pdflatex main.tex} twice to resolve cross-references and citation rendering
+\end{itemize}
+
+All BibTeX entries are stored in \texttt{main.bib}, and I used the \texttt{IEEEtran} style for formatting. 
+
+\subsection{Screenshot for Git Push}
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.8\textwidth]{github.png}
+    \caption{Committing changes to GitHub from the command line.}
+    \label{fig:my_label}
+\end{figure}
+
+\subsection{Screenshot for Pdflatex}
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.8\textwidth]{pdflatex.png}
+    \caption{Compiling latex file from the command line.}
+    \label{fig:my_label}
+\end{figure}
+
+\subsection{Screenshot for Bibtex}
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.8\textwidth]{bibtex.png}
+    \caption{Compiling bib file from the command line.}
+    \label{fig:my_label}
+\end{figure}
 
 \newpage
 
@@ -529,7 +566,6 @@ As above, for submission 3
 %=======================================================================================
 
 \newpage
-
 \bibliographystyle{IEEEtran}
 \bibliography{main}
 
